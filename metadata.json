@@ -1,9 +1,7 @@
 {
-    "name":"gg lawyers",
-    "thumbnail":"gg-lawyers.png",
+    "name": "GG Lawyers",
+    "thumbnail": "gg-lawyers.png",
     "screenshot":"gg-lawyers.png",
-    "tags": { "en": ["clean"] },
-    "pageTypes":["home"],
     "templateType":"standard",
     "images":["/images/feature-bg.jpg"],
     "colorSwatches":
