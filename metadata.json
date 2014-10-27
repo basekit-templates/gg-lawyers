@@ -1,10 +1,8 @@
 {
     "name": "GG Lawyers",
     "thumbnail": "gg-lawyers.png",
-    "images":[
-        "images/feature-bg.jpg"
-    ],
-    "pageTypes":["home"],
+    "screenshot":"gg-lawyers.png",
+    "templateType":"standard",
     "colorSwatches":
     {
         "Swatch 1": {
@@ -17,6 +15,9 @@
             "color7":"#2ec2fb"
         }
     },
+    "images":[
+        "images/feature-bg.jpg"
+    ],
     "fontSwatch": {
        "title": "Oxygen, Helvetica, Arial, sans-serif",
         "font1": {
