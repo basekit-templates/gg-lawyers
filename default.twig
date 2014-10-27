@@ -1,0 +1,62 @@
+{% extends "layout.twig" %}
+{% block content %}
+
+<div class="bk-default">
+
+	<header class="bk-header">
+		<div class="wrapper">
+			<div class="brand">
+				{{widget('logo', 'header-logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+				{{widget('companyname', 'homepage-companyname', {"business": "profile"})|raw}}
+			</div>
+			<div class="header-phone">
+				 {{widget('clicktocall', 'headerclicktocall', {phoneText: '212 6574 6736'})|raw}}
+			</div>
+			{{widget('extendednavigation', 'header-navigation', {"align":"left"})|raw}}
+		</div>
+	</header>
+
+	<!-- Container -->
+	<div class="container">
+	
+		<!-- Page Content -->
+		<section class="wrapper">
+			<!-- Main Widget Zone -->
+			<a name="zone-content"></a>
+			<section class="main-zone">
+				{{zone('main')|raw}}
+			</section>
+
+		</section>
+		<!-- End Page Content -->
+
+	</div>
+	<!-- End Container -->
+
+	<div class="bk-footer">
+		<div class="footer-one">
+			<div class="footer-container-one">
+				<div class="one-left">
+					{{widget('content', 'footercontentleft', {content: '<p>Last month, our attorneys helped millions of people make smarter, more confident legal decisions.</br> Today it is your turn.</p>', lines: 'all'})|raw}}
+				</div>
+				<div class="one-right">
+					{{widget('content', 'footercontentright', {content: '<p>Last month, our attorneys helped millions of people make smarter, more confident legal decisions.</br> Today it is your turn.</p>', lines: 'all'})|raw}}
+				</div>
+			</div>
+		</div>
+		<div class="footer-two">
+			<div class="footer-container-two">
+				<div class="two-left">
+					{{widget('profile', 'copyright', { 'profileType':'copyright'})|raw}}
+				</div>
+				<div class="two-right">
+					{{widget('profile', 'socialicons', { 'profileType':'socialicons', 'socialicons':'profile'})|raw}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div><!-- end bk-default-home -->
+
+{% endblock %}
