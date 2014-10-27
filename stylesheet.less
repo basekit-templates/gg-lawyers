@@ -146,7 +146,7 @@
             height: 23px;
             display: inline-block;
             margin-top: 1.5em;
-            @media only screen and (max-width: 960px) {
+            @media only screen and (max-width: 1024px) {
                 display: none;
             }
         }
@@ -411,7 +411,7 @@ a.basket-summary-empty-cta.btn,
     -moz-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
     box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
     .border-radius(3px);
-    border: 1px solid darken(@color-swatch3,3%);
+    border: 1px solid @color-swatch3;
     margin: 5px 0;
     padding: 8px 14px;
     text-decoration: none;
@@ -693,7 +693,7 @@ textarea {
     .image-data {
         display: block;
         opacity: 0;
-        background-color: darken(@color-swatch2,20%);
+        background-color: darken(@color-swatch2,5%);
         -webkit-transition: all 0.4s ease-out;
         -moz-transition: all 0.4s ease-out;
         -o-transition: all 0.4s ease-out;
@@ -723,7 +723,7 @@ textarea {
         }
     }
     .content-wrapper {
-        background: darken(@color-swatch2,20%);
+        background: darken(@color-swatch2,5%);
         display: table;
     }
     .title {
