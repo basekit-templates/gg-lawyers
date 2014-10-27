@@ -61,18 +61,18 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Merriweather\", Georgia, serif",
-            "font-size": "14px",
+            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
+            "font-size": "18px",
             "font-weight": "400",
-            "line-height": "26px",
-            "color": "@color-swatch4",
+            "line-height": "28px",
+            "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Merriweather\", Georgia, serif",
-            "font-size": "14px",
+            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
+            "font-size": "18px",
             "font-weight": "400",
-            "line-height": "26px",
+            "line-height": "28px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
