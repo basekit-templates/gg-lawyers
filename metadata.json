@@ -45,78 +45,80 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Futura\", Helvetica, sans-serif",
             "font-size": "26px",
-            "font-weight": "700",
+            "font-weight": "400",
             "line-height": "36px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "22px",
+            "font-family": "\"Futura\", Helvetica, sans-serif",
+            "font-size": "20px",
             "font-weight": "400",
-            "line-height": "32px",
-            "color": "@color-swatch4",
+            "line-height": "30px",
+            "color": "darken(@color-swatch4,10%)",
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "18px",
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "14px",
             "font-weight": "400",
-            "line-height": "28px",
-            "color": "@color-swatch5",
+            "line-height": "26px",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "18px",
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "14px",
             "font-weight": "400",
-            "line-height": "28px",
+            "line-height": "26px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "16px",
-            "font-weight": "700",
-            "line-height": "26px",
-            "color": "@color-swatch6",
-            "color-hover": "@color-swatch2",
-            "letter-spacing": "inherit"
-         },
-        "font7": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "18px",
+            "font-family": "\"Futura\", Helvetica, sans-serif",
+            "font-size": "15px",
             "font-weight": "400",
-            "line-height": "28px",
+            "line-height": "25px",
             "color": "@color-swatch6",
             "letter-spacing": "inherit",
+            "color-hover": "@color-swatch2",
+            "background-color": "@color-swatch7",
+            "background-color-hover": "@color-swatch7"
+         },
+        "font7": {
+            "font-family": "\"Futura\", Helvetica, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
             "background-color": "@color-swatch3",
-            "background-color-hover": "darken(@color-swatch3,15%)"
+            "background-color-hover": "lighten(@color-swatch3,10%)"
         },
         "font8": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "40px",
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "18px",
             "font-weight": "400",
-            "line-height": "50px",
-            "color": "@color-swatch6",
+            "line-height": "30px",
+            "color": "@color-swatch1",
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-size": "18px",
             "font-weight": "inherit",
-            "line-height": "inherit",
-            "color": "@color-swatch6",
+            "line-height": "30px",
+            "color": "@color-swatch2",
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "36px",
-            "font-weight": "700",
-            "line-height": "46px",
-            "color": "@color-swatch6",
+            "font-family": "\"Futura\", Helvetica, sans-serif",
+            "font-size": "27px",
+            "font-weight": "400",
+            "line-height": "37px",
+            "color": "@color-swatch1",
             "letter-spacing": "inherit"
         }
     }
