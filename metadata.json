@@ -17,21 +17,21 @@
         },
         "Swatch 2": {
             "color1":"#ffffff",
-            "color2":"#357087",
-            "color3":"#2ec2fb",
-            "color4":"#2ec2fb",
+            "color2":"#494137",
+            "color3":"#a49482",
+            "color4":"#494137",
             "color5":"#999999",
             "color6":"#ffffff",
-            "color7":"#2ec2fb"
+            "color7":"#a49482"
         },
         "Swatch 3": {
             "color1":"#ffffff",
-            "color2":"#357087",
-            "color3":"#2ec2fb",
-            "color4":"#2ec2fb",
+            "color2":"#32645a",
+            "color3":"#84c3b6",
+            "color4":"#32645a",
             "color5":"#999999",
             "color6":"#ffffff",
-            "color7":"#2ec2fb"
+            "color7":"#84c3b6"
         }
     },
     "fontSwatch": {
