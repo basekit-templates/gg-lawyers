@@ -13,13 +13,31 @@
             "color5":"#999999",
             "color6":"#ffffff",
             "color7":"#2ec2fb"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#489eb9",
+            "color3":"#78cde8",
+            "color4":"#489eb9",
+            "color5":"#949494",
+            "color6":"#489eb9",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#5c612f",
+            "color3":"#C7C16D",
+            "color4":"#5c612f",
+            "color5":"#949494",
+            "color6":"#5c612f",
+            "color7":"#ffffff"
         }
     },
     "images":[
         "images/feature-bg.jpg"
     ],
     "fontSwatch": {
-       "title": "Oxygen, Helvetica, Arial, sans-serif",
+       "title": "Oxygen",
         "font1": {
             "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
             "font-size": "30px",
