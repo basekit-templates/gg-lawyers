@@ -944,7 +944,7 @@ textarea {
 
 .bk-footer {
     .bk-content-text, .widget.profile  {
-        h1, h2, h3, h4, h5, blockquote, pre, p, span {
+        h1, h2, h3, h4, h5, blockquote, pre, p, span, p span {
             color: @color-swatch1;
         }
         blockquote:before {
@@ -953,6 +953,14 @@ textarea {
         pre {
             border: 1px solid @color-swatch2;
         }
+        a {
+            text-decoration: underline;
+        }
     }
+}
+
+.footer-container-one .bk-content-text a {
+    color: @color-swatch2;
+    text-decoration: underline;
 }
 
