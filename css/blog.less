@@ -59,14 +59,17 @@
         a {
             color: @font-swatch3-color;
             display: inline-block;
-            background-color: transparent; 
+            background-color: @color-swatch1; 
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
             &:hover {
                 text-decoration: none;
                 color: @font-swatch7-color;
                 background-color: @font-swatch7-background-color-hover;
-                -webkit-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-                -moz-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-                box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
+                -webkit-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+                -moz-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+                box-shadow: inset 0px 10px 9px 0px @color-swatch3;
             }  
         } 
     }
