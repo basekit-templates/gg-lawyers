@@ -916,8 +916,8 @@ textarea {
 }
 
 .one-left, .two-left, .one-right, .two-right {
-    max-width: 50%;
-    width: 50%;
+    max-width: 49.7%;
+    width: 49.7%;
     @media @tablet {
         float: left;
         max-width: 100%;
@@ -927,7 +927,8 @@ textarea {
 } 
 
 .one-left, .two-left {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     padding-right: 2em;
     padding-left: 5px;
     @media @tablet {
@@ -937,7 +938,7 @@ textarea {
 }
 
 .one-right, .two-right {
-    float: right;
+    display: inline-block;
 }
 
 .bk-footer {
