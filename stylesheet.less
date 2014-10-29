@@ -129,6 +129,9 @@
         }
     }
 
+    .widget.feature .feature-bgimg .content {
+        background-color: rgba(0,0,0,0.4);
+    }
 
 
     // Home page arrow down
@@ -213,16 +216,25 @@
                 cursor: default;
     		}
         }
+        @media @mobile {
+            a {
+                border: 1px solid fade(@color-swatch1,30%);
+                -webkit-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+                -moz-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+                box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+                &:hover {
+                    border: 1px solid fade(@color-swatch1,30%);
+                    -webkit-box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
+                    -moz-box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
+                    box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
+                }
+            }
+        }
 	}
     @media @tablet {
         width: 80%;
         float: left;
         padding-top: 20px;
-    }
-    @media @mobile {
-        a {
-            border: 1px solid fade(@color-swatch1,30%);
-        }
     }
 }
 
@@ -314,14 +326,14 @@
         &.pull {
             width: 46px !important;
             height: 46px;
-            border: 1px solid fade(@color-swatch1,30%);
             .border-radius(3px);
             top: -43px;
             right: 0;
             z-index: 9999;
-            -webkit-box-shadow: inset 0px 3px 5px 2px rgba(255,255,255,0.3);
-            -moz-box-shadow: inset 0px 3px 5px 2px rgba(255,255,255,0.3);
-            box-shadow: inset 0px 3px 5px 2px rgba(255,255,255,0.3);
+            border: 1px solid fade(@color-swatch1,30%);
+            -webkit-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+            -moz-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+            box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
             &:after {
                 background: @font-swatch6-color;
                 box-shadow: 0 6px 0 @font-swatch6-color, 0 12px 0 @font-swatch6-color;
@@ -334,6 +346,9 @@
             }
             &:hover {
                 background-color: @font-swatch7-background-color-hover;
+                -webkit-box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
+                -moz-box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
+                box-shadow: inset 0px 10px 9px 0px darken(@color-swatch3,5%);
                 .transition( all, 0.5s, ease );
                 .border-radius(3px);
             }
@@ -407,9 +422,9 @@ a.basket-summary-empty-cta.btn,
     font-weight: @font-swatch7-font-weight;
     line-height: @font-swatch7-line-height;
     background-color: @font-swatch7-background-color;
-    -webkit-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-    -moz-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-    box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
+    -webkit-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+    -moz-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+    box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
     .border-radius(3px);
     border: 1px solid @color-swatch3;
     margin: 5px 0;
@@ -420,6 +435,9 @@ a.basket-summary-empty-cta.btn,
     }
     &:hover {
         background-color: @font-swatch7-background-color-hover;
+        -webkit-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+        -moz-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+        box-shadow: inset 0px 10px 9px 0px @color-swatch3;
         .transition( all, 0.5s, ease );
         .border-radius(3px);
     }
@@ -436,9 +454,9 @@ a.basket-summary-empty-cta.btn,
                     font-weight: @font-swatch7-font-weight;
                     line-height: @font-swatch7-line-height;
                     background-color: @font-swatch7-background-color;
-                    -webkit-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.2);
-                    -moz-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.2);
-                    box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.2);
+                    -webkit-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+                    -moz-box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
+                    box-shadow: inset 0px 10px 9px 0px lighten(@color-swatch3,15%);
                     .border-radius(3px);
                     border: 1px solid darken(@color-swatch3,3%);
                     margin: 5px 0;
@@ -447,6 +465,9 @@ a.basket-summary-empty-cta.btn,
                     }
                 a:hover {
                     background-color: @font-swatch7-background-color-hover;
+                    -webkit-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+                    -moz-box-shadow: inset 0px 10px 9px 0px @color-swatch3;
+                    box-shadow: inset 0px 10px 9px 0px @color-swatch3;
                     .transition( all, 0.5s, ease );
                 }
             }
@@ -484,6 +505,9 @@ a.basket-summary-empty-cta.btn,
                 &.btn.facebook {
                     background-color: #3b5998;
                     border: 1px solid darken(#3b5998,3%);
+                    -webkit-box-shadow: inset 0px 10px 9px 0px lighten(#3b5998,15%);
+                    -moz-box-shadow: inset 0px 10px 9px 0px lighten(#3b5998,15%);
+                    box-shadow: inset 0px 10px 9px 0px lighten(#3b5998,15%);
                     &:hover {
                         background-color: darken(#3b5998,10%);
                     }
@@ -491,6 +515,9 @@ a.basket-summary-empty-cta.btn,
                 &.btn.twitter {
                     background-color: #4099FF;
                     border: 1px solid darken(#4099FF,3%);
+                    -webkit-box-shadow: inset 0px 10px 9px 0px lighten(#4099FF,15%);
+                    -moz-box-shadow: inset 0px 10px 9px 0px lighten(#4099FF,15%);
+                    box-shadow: inset 0px 10px 9px 0px lighten(#4099FF,15%);
                     &:hover {
                         background-color: darken(#4099FF,10%);
                     }
@@ -498,6 +525,9 @@ a.basket-summary-empty-cta.btn,
                 &.btn.googleplus {
                     background-color: #d34836;
                     border: 1px solid darken(#d34836,3%);
+                    -webkit-box-shadow: inset 0px 10px 9px 0px lighten(#d34836,15%);
+                    -moz-box-shadow: inset 0px 10px 9px 0px lighten(#d34836,15%);
+                    box-shadow: inset 0px 10px 9px 0px lighten(#d34836,15%);
                     &:hover {
                         background-color: darken(#d34836,10%);
                     }
@@ -633,10 +663,15 @@ textarea {
 // -----------------------------
 
 .widget.socialicons a, .widget.profile .bk-profile-socialicons span a {
-    -webkit-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-    -moz-box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
-    box-shadow: inset 0px 3px 5px 3px rgba(255,255,255,0.3);
+    -webkit-box-shadow: inset 0px 6px 5px 0px lighten(@color-swatch3,15%);
+    -moz-box-shadow: inset 0px 6px 5px 0px lighten(@color-swatch3,15%);
+    box-shadow: inset 0px 6px 5px 0px lighten(@color-swatch3,15%);
     .border-radius(3px);
+    &:hover {
+        -webkit-box-shadow: inset 0px 6px 5px 0px @color-swatch3;
+        -moz-box-shadow: inset 0px 6px 5px 0px @color-swatch3;
+        box-shadow: inset 0px 6px 5px 0px @color-swatch3;       
+    }
 }
 
 
