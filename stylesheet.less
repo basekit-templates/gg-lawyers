@@ -364,9 +364,15 @@
     color: @font-swatch6-color;
 }
 
-.extendednavigation ul li.selected, .extendednavigation ul li:hover ul li.selected, .extendednavigation ul li.folder.selected ul li.selected, .extendednavigation ul li.folder.selected {
+.extendednavigation ul li.selected, .extendednavigation ul li.folder.selected {
     a, .text {
-        color: darken(@font-swatch6-color-hover,10%);
+        color: @font-swatch6-color-hover;
+    }
+}
+
+.extendednavigation ul li:hover ul li.selected, .extendednavigation ul li.folder.selected ul li.selected {
+    a, .text {
+        color: @color-swatch3;
     }
 }
 
