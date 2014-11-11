@@ -10,7 +10,9 @@
 				{{widget('companyname', 'homepage-companyname', {"business": "profile"})|raw}}
 			</div>
 			<div class="header-phone">
-				 {{widget('clicktocall', 'headerclicktocall', {phoneText: '212 6574 6736'})|raw}}
+				{% if profile.phone|length > 0 %}  
+                   {{widget('clicktocall', 'headerclicktocall', {})|raw}}
+                {% endif %}
 			</div>
 			{{widget('extendednavigation', 'header-navigation', {"align":"left"})|raw}}
 		</div>
