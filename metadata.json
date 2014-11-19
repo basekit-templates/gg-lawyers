@@ -4,6 +4,7 @@
     "screenshot":"gg-lawyers.png",
     "templateType":"standard",
     "images":["/images/feature-bg.jpg"],
+    "pageTypes":["home"],
     "colorSwatches":
     {
         "Swatch 1": {
